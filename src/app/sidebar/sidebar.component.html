@@ -1,0 +1,63 @@
+<div class="page-content d-flex align-items-stretch">
+  <!-- Side Navbar -->
+  <nav class="side-navbar z-index-40">
+    <!-- Sidebar Header-->
+    <div class="sidebar-header d-flex align-items-center py-4 px-3"><img
+        class="avatar shadow-0 img-fluid rounded-circle" src="assets/img/testimonial-1.jpg" alt="...">
+      <div class="ms-3 title">
+        <h1 class="h5 mb-2">Nom</h1>
+        <p class="text-sm text-gray-500 fw-light mb-0 lh-1">Titre</p>
+      </div>
+    </div>
+    <!-- Sidebar Navidation Menus-->
+    <ul class="list-unstyled py-4">
+      <li class="sidebar-item active"><a class="sidebar-link mb-2" routerLink="dashboard">
+        <h5>  <i class="fa-solid fa-house"></i> Home </h5></a></li>
+      <li class="sidebar-item active"><a class="sidebar-link" href="#gererTicket" 
+        data-bs-toggle="collapse">
+       <h5> <i class="fa-solid fa-ticket"></i>Gestion des tickets </h5></a>
+        <ul class="collapse list-unstyled " id="gererTicket">
+          <li><a class="sidebar-link" routerLink="/gestion-ticket">Consulter</a></li>
+          <li><a class="sidebar-link" href="#">Ajouter</a></li>
+          <li><a class="sidebar-link" href="#">Page</a></li>
+        </ul>
+      </li>
+      <li class="sidebar-item active"><a class="sidebar-link" href="#gererCompte" 
+        data-bs-toggle="collapse">
+       <h5> <i class="fa-solid fa-user"></i>Gestion des comptes </h5></a>
+        <ul class="collapse list-unstyled " id="gererCompte">
+          <li><a class="sidebar-link" routerLink="gestion-clt">clients</a></li>
+          <li><a class="sidebar-link" routerLink="gestion-expert">Experts</a></li>
+          <li><a class="sidebar-link" routerLink="gestion-manager">Managers</a></li>
+        </ul>
+      </li>
+      <li class="sidebar-item active"><a class="sidebar-link" routerLink="/gestion-doc">
+       <h5> <i class="fa-solid fa-file"></i>Gestion des documents</h5> </a></li>
+      <li class="sidebar-item active"><a class="sidebar-link" href="">
+        <h5><i class="fa-solid fa-star"></i>Gestion des categories</h5 ></a></li>
+      <li class="sidebar-item active"><a class="sidebar-link" routerLink="">
+       <h5> <i class="fa-sharp fa-solid fa-cloud"></i>Gestion des tags </h5></a></li>
+      <li class="sidebar-item active"><a class="sidebar-link" routerLink="">
+       <h5>Gestion des comptes </h5></a></li>
+      <li class="sidebar-item active"><a class="sidebar-link" routerLink="gestion-offre">
+       <h5> <i class="fa-solid fa-cart-plus"></i>Gestion des offres</h5> </a></li>
+
+
+
+      <!-- <div *ngFor="let item of users">
+        <li class="sidebar-item"><a class="sidebar-link" href="#exampledropdownDropdown" data-bs-toggle="collapse">
+            data </a>
+          <ul class="collapse list-unstyled " id="exampledropdownDropdown">
+            <li>
+              <a class="sidebar-link" href="#"> info</a>
+            </li>
+            <li><a class="sidebar-link" href="#">Page</a></li>
+            <li><a class="sidebar-link" href="#">Page</a></li>
+          </ul>
+        </li>
+      </div> -->
+
+
+    </ul>
+  </nav>
+</div>
